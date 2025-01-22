@@ -877,7 +877,7 @@ DEFAULT_ARENA_MODEL = {
     "name": "Arena Model",
     "meta": {
         "profile_image_url": "/favicon.png",
-        "description": "Submit your questions to anonymous AI chatbots and vote on the best response.",
+        "description": "Für jede Eingabe wird ein zufälliges Modell ausgewählt, bewertet dies je nach Qualität mit Daumen hoch oder Daumen herunter.",
         "model_ids": None,
     },
 }

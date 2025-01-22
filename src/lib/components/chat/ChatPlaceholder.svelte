@@ -82,11 +82,10 @@
 		>
 			<div>
 				<div class=" capitalize line-clamp-1" in:fade={{ duration: 200 }}>
-					{#if models[selectedModelIdx]?.name}
-						{models[selectedModelIdx]?.name}
-					{:else}
-						{$i18n.t('Hello, {{name}}', { name: $user.name })}
-					{/if}
+					1. Zeile: o1-Modelle bitte sparsam benutzen.<br>
+					2. Zeile: Für sensible Daten: Open-Source Modelle benutzen.<br>
+					3. Zeile: Dies sind codellama, gemma, llama und mistral.<br>
+					4. Zeile: Probiert auch gerne das Random-Modell aus \u{1F60A} 
 				</div>
 
 				<div in:fade={{ duration: 200, delay: 200 }}>
